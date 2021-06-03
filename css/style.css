@@ -44,13 +44,16 @@ body{
     text-align:center;
     position:fixed;
     height:100%;
+    padding:20px 0;
 }
 
+.__left h1{
+    cursor:pointer;
+}
 .gnav{
     text-align:center;
-    margin-top: 30px;
     width: 80%;
-    margin: 30px auto 0;
+    margin: 80px auto 0;
 }
 
 /*.gnav ul {
@@ -94,6 +97,13 @@ body{
     opacity:1;
         
 }
+
+.logo{
+    margin-top: 100px;
+    width: 100%;
+    opacity:0.7;
+}
+
 /*---------__left終了---------------*/
 
 /*__right開始*/
@@ -560,6 +570,7 @@ footer{
     margin-left: auto;
     color:#eee;
     padding: 15px 20px;
+    position:relative;
 }
 
 .footer-title{
@@ -606,8 +617,20 @@ footer{
 .footer__right{
     text-align:center;
     margin-top: 30px;
+    margin-bottom: -30px;
 }
+
+footer a{
+    color:#fff;
+    text-align:right;
+    display: block;
+    margin-left: auto;
+}
+
 @media screen and (max-width:600px){
+    .logo{
+        display: none;
+    }
     .sub-title{
         display: block;
     }

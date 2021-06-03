@@ -17,6 +17,14 @@ $(function(){
         dots:false,
         slidesToShow: 3,
         rows:1,
+        responsive:[
+            {
+                breakpoint:600,
+                settings:{
+                    slidesToShow :1,
+                }
+            }
+        ]
         
 });
     $('a[href^=#]').click(function(){
@@ -69,6 +77,8 @@ $(function(){
         $('.fd li:nth-child(5) .-circle').css('opacity','1');
     }
         
-        
 });
+    $('.top').click(function(){
+        $('html,body').animate({scrollTop:0},1500);
+    });
 });
