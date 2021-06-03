@@ -61,7 +61,7 @@ $(function(){
     }if(scroll > 3024){
         $('.-circle').css('opacity','0');
         $('.fd li:nth-child(3) .-circle').css('opacity','1');
-    }if(scroll > 3650){
+    }if(scroll > 4050){
         $('.-circle').css('opacity','0');
         $('.fd li:nth-child(4) .-circle').css('opacity','1');
     }if(scroll > 4400){
