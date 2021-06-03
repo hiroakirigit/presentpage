@@ -69,8 +69,6 @@ $(function(){
         $('.fd li:nth-child(5) .-circle').css('opacity','1');
     }
         
-        $('.scroll').html('スクロール量'+scroll+'px');
-        
         
 });
 });
