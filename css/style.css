@@ -678,10 +678,9 @@ footer a{
     }
     .bg-pink{
         margin-top: 80px;
-        margin-bottom: 100px;
     }
     #service{
-         background-position:bottom center;
+         background-position:center;
         background-size: 90%;
     }
     .button{
@@ -780,7 +779,7 @@ footer a{
     transition:all .5s ease-in;
 }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:450px){
     .show{
         transform:translate(149%);
     }
