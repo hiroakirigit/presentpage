@@ -39,22 +39,27 @@ body{
 }
 
 /*.__left*/
-.__left{
+.__left {
     width: 15%;
-    text-align:center;
-    position:fixed;
-    height:100%;
-    padding:20px 0;
+    text-align: center;
+    position: fixed;
+    height: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .__left h1{
     cursor:pointer;
 }
-.gnav{
-    text-align:center;
+.gnav {
+    text-align: center;
     width: 80%;
-    margin: 80px auto 0;
+ margin: 0 auto;
 }
+
 
 /*.gnav ul {
     display: flex;
@@ -99,7 +104,6 @@ body{
 }
 
 .logo{
-    margin-top: 100px;
     width: 100%;
     opacity:0.7;
 }
@@ -173,7 +177,7 @@ body{
 #service{
     background-image:url("../images/present.png");
     background-size: 50%;
-    background-position: top right;
+    background-position: top 50% right;
     background-repeat:no-repeat;
 }
 
@@ -332,7 +336,7 @@ body{
     width: 400px;
     position:absolute;
     top: 15%;
-    left: 54%;
+    right: 15%;
     z-index:-10;
     height:auto;
     padding: 30px 0;
@@ -619,7 +623,6 @@ footer{
 .footer__right{
     text-align:center;
     margin-top: 30px;
-    margin-bottom: -30px;
 }
 
 footer a{
@@ -731,6 +734,14 @@ footer a{
     .flex-sb{
         flex-direction: column;
     }
+    .ellipse {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 60% 60% 70% 80%/80% 70% 60% 50%;
+}
     .rgb-circle{
         margin-left: auto;
     }
@@ -796,6 +807,9 @@ footer a{
     }
     .gnav{
         margin-top: 20px;
+    }
+    #service{
+        background-position:bottom 10% center;
     }
     .how__title{
         font-size: 22px;
